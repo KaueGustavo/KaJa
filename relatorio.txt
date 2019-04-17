@@ -1,0 +1,31 @@
+git config --global http://user.name  Gabriel Domingues
+git config --global http://user.email  gabriel022002@gmail.com
+
+mkdir Trabalhogd
+cd Trabalhogd
+git init
+git status
+git add formulario.html
+git commit -m Formulario
+
+git remote add origin https://github.com/japapudo/Trabalhogd.git …
+git push origin master
+
+mkdir Repositorio3
+cd Repositorio3
+git clone https://github.com/KaueGustavo/KaJa.git …
+cd KaJa
+"ALTERAR ARQUIVO HTML (siteTime)"
+git add siteTime.html
+git commit -m siteTime.html
+git push -u origin master
+
+cd ..
+cd ..
+git pull
+git log
+
+"ALTERAR ARQUIVO HTML (formulario)"
+git add formulario.html
+git commit -m formulario.html
+git push origin master
